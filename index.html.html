@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Achilles V.C. Del Rosario | Student Portfolio</title>
+<style>
+:root{
+  --forest:#123c2c; --green:#1f6047; --sage:#789b86;
+  --cream:#f5f4ed; --paper:#ffffff; --ink:#1e2a25;
+  --muted:#65736c; --line:#d9e1db; --accent:#b8cfbd;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Georgia,"Times New Roman",serif;background:var(--cream);color:var(--ink);line-height:1.7}
+.nav{position:sticky;top:0;z-index:10;background:rgba(18,60,44,.96);padding:14px 6%;display:flex;justify-content:space-between;align-items:center;box-shadow:0 2px 12px #0002}
+.logo{color:#fff;font-weight:bold;letter-spacing:2px;font-size:1rem}
+.nav a{color:#e9f2ec;text-decoration:none;margin-left:24px;font-family:Arial,sans-serif;font-size:.86rem}
+.nav a:hover{color:var(--accent)}
+.hero{min-height:78vh;display:flex;align-items:center;padding:80px 8%;background:linear-gradient(135deg,#edf2ec 0%,#f8f7f1 55%,#dfeae2 100%)}
+.hero-inner{max-width:1050px;margin:auto;width:100%;display:grid;grid-template-columns:1fr 290px;gap:70px;align-items:center}
+.kicker{text-transform:uppercase;letter-spacing:4px;color:var(--green);font:600 .78rem Arial,sans-serif;margin-bottom:15px}
+h1{font-size:clamp(3rem,7vw,5.5rem);line-height:1.02;color:var(--forest);margin-bottom:20px}
+.subtitle{font:500 1.05rem Arial,sans-serif;color:var(--muted);max-width:650px}
+.profile{height:290px;width:290px;border-radius:50%;border:8px solid white;box-shadow:0 12px 35px #123c2c25;background:#d9e5dc;display:flex;align-items:center;justify-content:center;text-align:center;color:var(--green);font:600 .85rem Arial,sans-serif;padding:35px}
+.profile img{width:100%;height:100%;object-fit:cover;border-radius:50%}
+.section{padding:90px 8%;max-width:1150px;margin:auto}
+.section-title{color:var(--forest);font-size:2rem;margin-bottom:10px}
+.rule{height:3px;width:55px;background:var(--green);margin:15px 0 35px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:25px}
+.card{background:var(--paper);padding:30px;border:1px solid var(--line);box-shadow:0 5px 18px #123c2c0b}
+.card h3{color:var(--green);margin-bottom:10px;font-size:1.2rem}
+.card p,.card li{font-family:Arial,sans-serif;color:#4e5c55;font-size:.95rem}
+.tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.tag{background:#e6eee8;color:var(--forest);padding:7px 13px;border-radius:3px;font:600 .8rem Arial,sans-serif}
+.quote{background:var(--forest);color:#f4f6f1;padding:55px 8%;text-align:center}
+.quote p{max-width:800px;margin:auto;font-size:1.35rem;font-style:italic}
+.quote small{display:block;margin-top:18px;font:600 .72rem Arial,sans-serif;letter-spacing:2px;text-transform:uppercase;color:var(--accent)}
+.contact{background:#e8eee9}
+.contact-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.contact a{color:var(--green);text-decoration:none;font-family:Arial,sans-serif;word-break:break-word}
+footer{background:#0d2d21;color:#cddbd2;text-align:center;padding:25px;font: .78rem Arial,sans-serif}
+@media(max-width:760px){
+ .nav{display:block;text-align:center}.nav a{display:inline-block;margin:7px 8px}
+ .hero{padding:60px 7%}.hero-inner{grid-template-columns:1fr;text-align:center;gap:35px}
+ .profile{margin:auto}.subtitle{margin:auto}.grid,.contact-grid{grid-template-columns:1fr}
+ .section{padding:65px 7%}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="logo">AVD</div>
+  <div>
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#achievements">Achievements</a>
+    <a href="#goals">Goals</a><a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div>
+      <div class="kicker">Student Portfolio</div>
+      <h1>Achilles V.C.<br>Del Rosario</h1>
+      <p class="subtitle">A student of Pasay City National Science High School with an interest in science, music, games, and continuous personal growth.</p>
+    </div>
+    <div class="profile">
+      <img src="C:\Users\ACHILLES DEL ROSARIO\Downloads\pic.jpg.jfif" alt="Achilles Del Rosario">
+
+    </div>
+  </div>
+</header>
+
+<section class="section" id="about">
+  <div class="kicker">01 — Introduction</div>
+  <h2 class="section-title">About Me</h2><div class="rule"></div>
+  <div class="card">
+    <p>I am a chill person who enjoys games, music, and cats. I like exploring science and learning through the things that interest me. I value staying grounded while continuing to improve myself and help the people around me.</p>
+  </div>
+</section>
+
+<section class="section" id="skills">
+  <div class="kicker">02 — Capabilities</div>
+  <h2 class="section-title">Skills & Interests</h2><div class="rule"></div>
+  <div class="grid">
+    <div class="card">
+      <h3>Skills</h3>
+      <div class="tags">
+        <span class="tag">Pattern Recognition</span>
+        <span class="tag">Multitasking</span>
+        <span class="tag">Critical Thinking</span>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Interests</h3>
+      <div class="tags">
+        <span class="tag">Music</span>
+        <span class="tag">Gaming</span>
+        <span class="tag">Science</span>
+        <span class="tag">Cats</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="achievements">
+  <div class="kicker">03 — Milestones</div>
+  <h2 class="section-title">Achievements</h2><div class="rule"></div>
+  <div class="grid">
+    <div class="card">
+      <h3>Junior High School</h3>
+      <p>Graduating from Pasay City National Science High School, marking an important stage in my academic journey.</p>
+    </div>
+    <div class="card">
+      <h3>Music & Leadership</h3>
+      <p>Developed enough musical skill and confidence to help lead the choir through music.</p>
+    </div>
+  </div>
+</section>
+
+<div class="quote">
+  <p>“Be grateful for what you receive, stay humble, and remember that there is always someone who knows more.”</p>
+  <small>Personal Values</small>
+</div>
+
+<section class="section" id="goals">
+  <div class="kicker">04 — Future</div>
+  <h2 class="section-title">Career & Goals</h2><div class="rule"></div>
+  <div class="card">
+    <h3>My Dream Career: Pathologist</h3>
+    <p>My dream career is to become a pathologist. I want to help people with illnesses through the study and diagnosis of disease, while also building a future where I can support my family.</p>
+  </div>
+</section>
+
+<section class="section contact" id="contact">
+  <div class="kicker">05 — Get in Touch</div>
+  <h2 class="section-title">Contact</h2><div class="rule"></div>
+  <div class="contact-grid">
+    <div class="card"><h3>Email</h3><a href="mailto:achillesdelrosario121808@gmail.com">achillesdelrosario121808@gmail.com</a></div>
+    <div class="card"><h3>Phone</h3><a href="tel:09619547997">0961 954 7997</a></div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Achilles V.C. Del Rosario · Student Portfolio
+</footer>
+</body>
+</html>
